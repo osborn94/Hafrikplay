@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+*{
+
+margin: 0;
+padding: 0;
+text-decoration: none;
+list-style: none;
+font-family: 'Playfair Display', serif;
+font-family: 'Roboto', sans-serif;
+font-size: 12px;
+
+}
+
+
+/* body{
+background-color: black;
+display: flex;
+
+} */
+
+.haf-container{
+/* position: relative; */
+background-color: black;
+display: flex;
+width: 100%;
+
+
+}
+
+.logo img{
+
+width: 112.15px;
+height: 44.38px;
+
+}
+
+ul p{
+
+    color: #0C9159;
+    margin: 15px;
+}
+
+
+
+.menu-bar{
+
+position: sticky;
+top: 0;
+right: 0;
+bottom: 0;
+background-color: #262629;
+width: 173px;
+height: 610px;
+padding: 24px;
+transition: all 0.5s;
+
+}
+
+ul a{
+
+display: flex;
+gap: 15px;
+
+}
+
+ul li{
+
+padding: 15px;
+
+}
+
+ul li a{
+
+    color: #fff;
+
+}
+
+ul li a:hover{
+
+color: #0C9159;
+
+}
+
+.search{
+
+    /* position: relative; */
+    width: 85%;
+    height: 12vh;
+    background-color: #080f0c;
+
+
+}
+
+input[type=text]:focus{
+
+outline: none;
+
+
+}
+
+.glaz{
+position: relative;
+
+width: 40%;
+
+
+}
+
+input[type=text]{
+
+    position: absolute;
+    width: 270px;
+    padding: 10px;
+    text-indent: 15px;
+    font-size: 15px;
+    border-radius: 20px;
+    border: none;
+    /* background-color: rgb(61, 55, 55); */
+    top: 18px;
+    left: 30px;
+    background: transparent;
+
+}
+
+.glass i{
+
+position: absolute;
+font-size: 15px;
+font-weight: 20px;
+color: red;
+top: 30.5px;
+left: 37px;
+
+}
+
+::placeholder{
+color: rgb(118, 134, 134);
+
+}
+
+
+.main-one{
+
+position: absolute;
+background-color: rgb(34, 34, 31);
+width: 83.75%;
+height: 55vh;
+top: 73px;
+left: 219px;
+
+}
+
+.main-two{
+
+position: relative;
+
+}
+
+.green-haf img{
+position: absolute;
+width: 470px;
+top: 60px;
+left: 20px;
+
+}
+
+.brown-haf img{
+position: absolute;
+width: 570px;
+top: 50px;
+left: 80px;
+}
+
+.blue-haf img{
+position: absolute;
+width: 470px;
+top: 60px;
+right: 20px;
+
+}
+
+.grey-haf img{
+position: absolute;
+width: 570px;
+top: 50px;
+right: 80px;
+    
+}
+
+.top-image img{
+position: absolute;
+width: 800px;
+
+top: 30px;
+right: 190px;
+}
+
+.write{
+position: absolute;
+top: 199px;
+left: 160px;
+color: white;
+
+}
+
+.rem{
+position: absolute;
+color: white;
+font-size: 20px;
+top: 350px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
